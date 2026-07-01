@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<!-- Professional Pet Grooming | Mobile dog & cat grooming, Miami-Dade FL -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Mobile Dog &amp; Cat Grooming in Miami | Professional Pet Grooming</title>
+<meta name="description" content="Salon-quality mobile dog and cat grooming at your door across Miami-Dade. One pet at a time, no cages, free flea and tick cure with every groom. Call or text (786) 344-8864.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://professionalpetgrooming.example/">
+<meta name="geo.region" content="US-FL">
+<meta name="geo.placename" content="Miami, Florida">
+<meta name="geo.position" content="25.6680;-80.4500">
+<meta name="ICBM" content="25.6680, -80.4500">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Professional Pet Grooming">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Mobile Dog &amp; Cat Grooming in Miami | Professional Pet Grooming">
+<meta property="og:description" content="Salon-quality grooming at your door across Miami-Dade. One pet at a time, no cages, free flea and tick cure. Call or text (786) 344-8864.">
+<meta property="og:url" content="https://professionalpetgrooming.example/">
+<meta property="og:image" content="https://professionalpetgrooming.example/assets/og-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Professional Pet Grooming, mobile dog and cat grooming in Miami">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mobile Dog &amp; Cat Grooming in Miami | Professional Pet Grooming">
+<meta name="twitter:description" content="Salon-quality grooming at your door across Miami-Dade. One pet at a time, free flea and tick cure. Call or text (786) 344-8864.">
+<meta name="twitter:image" content="https://professionalpetgrooming.example/assets/og-share.jpg">
+
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/hero-doorstep.jpg" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --royal:#1B22C4; --royal-d:#141A9E;
+  --sky:#1FA6E0; --sky-d:#1488BE; --sky-soft:#E8F5FC;
+  --navy:#0F1738; --navy-2:#0B1129; --navy-3:#070C1F;
+  --ink:#1A2233; --ink-soft:#55607A;
+  --paper:#FFFFFF; --mist:#F1F5FB; --mist-2:#E9F0F9;
+  --line:#E2E8F2; --line-d:rgba(255,255,255,.14);
+  --bone:#E9EFFA; --bone-mute:#A9B6D4;
+  --sh-sm:0 1px 2px rgba(15,23,56,.05),0 8px 22px rgba(15,23,56,.07);
+  --sh-md:0 16px 40px rgba(15,23,56,.13);
+  --nav-h:82px; --nav-h-sm:66px;
+}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 20px)}
+@media(max-width:768px){html{scroll-padding-top:calc(var(--nav-h-sm) + 16px)}}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:700;line-height:1.06;letter-spacing:-.02em;color:var(--ink)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+@media(max-width:768px){.wrap{padding:0 24px}.sec-head{margin-bottom:34px}}
+section{padding:96px 0}
+@media(max-width:768px){section{padding:62px 0}}
+section.dark{background:var(--navy);color:var(--bone)}
+section.mist{background:var(--mist)}
+.rule{width:48px;height:4px;background:var(--sky);border-radius:2px;margin-bottom:18px}
+.sec-head{max-width:720px;margin:0 auto 50px;padding:0 24px}
+.sec-head.center{text-align:center}
+.sec-head.center .rule{margin-left:auto;margin-right:auto}
+.sec-head h2{font-size:clamp(1.9rem,3.8vw,2.9rem);margin-bottom:14px}
+.sec-head p{font-size:1.08rem;color:var(--ink-soft);line-height:1.6}
+section.dark .sec-head h2{color:#fff}
+section.dark .sec-head p{color:var(--bone-mute)}
+
+/* Buttons (squared, crisp) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 28px;background:var(--royal);color:#fff;border:none;border-radius:7px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:.98rem;cursor:pointer;transition:background .18s,transform .15s,box-shadow .18s;box-shadow:0 8px 20px rgba(27,34,196,.22)}
+.btn:hover{background:var(--royal-d);transform:translateY(-2px);box-shadow:0 12px 26px rgba(27,34,196,.30)}
+.btn i{font-size:.95em}
+.btn-ghost{background:transparent;color:var(--ink);border:1.6px solid var(--line);box-shadow:none}
+.btn-ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn-light{background:#fff;color:var(--royal);box-shadow:none}
+.btn-light:hover{background:var(--sky-soft);color:var(--royal-d)}
+.btn-sky{background:var(--sky)}
+.btn-sky:hover{background:var(--sky-d)}
+.btn-sm{padding:11px 18px;font-size:.9rem}
+.btn-lg{padding:17px 32px;font-size:1.04rem}
+
+/* NAV */
+nav.site-nav{position:fixed;inset:0 0 auto 0;height:var(--nav-h);background:#fff;border-bottom:1px solid var(--line);z-index:100;display:flex;align-items:center;transition:box-shadow .2s}
+nav.site-nav.scrolled{box-shadow:var(--sh-sm)}
+.nav-inner{width:100%;max-width:1280px;margin:0 auto;padding:0 30px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.nav-logo img{height:52px;width:auto;display:block}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-weight:600;font-size:.94rem;color:var(--ink);transition:color .18s}
+.nav-links a:hover{color:var(--royal)}
+.nav-right{display:flex;align-items:center;gap:16px}
+.nav-phone{font-weight:700;font-size:.96rem;color:var(--ink);display:inline-flex;align-items:center;gap:8px}
+.nav-phone i{color:var(--sky)}
+.nav-phone:hover{color:var(--royal)}
+.mobile-actions{display:none;align-items:center;gap:8px}
+.mobile-call{width:40px;height:40px;border-radius:8px;background:var(--royal);color:#fff;display:grid;place-items:center;font-size:1rem}
+.hamburger{width:40px;height:40px;border:none;background:transparent;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer;padding:0}
+.hamburger span{display:block;width:22px;height:2px;border-radius:2px;background:var(--ink)}
+@media(max-width:980px){.nav-links,.nav-right{display:none}.mobile-actions{display:flex}}
+
+/* Drawer */
+.nav-overlay{position:fixed;inset:0;background:rgba(7,12,31,.55);opacity:0;visibility:hidden;transition:.25s;z-index:150}
+.nav-overlay.open{opacity:1;visibility:visible}
+.nav-drawer{position:fixed;top:0;right:0;width:86%;max-width:340px;height:100dvh;background:#fff;z-index:160;transform:translateX(105%);transition:transform .3s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);box-shadow:-14px 0 44px rgba(7,12,31,.2)}
+.nav-drawer.open{transform:translateX(0)}
+.drawer-header{display:flex;align-items:center;justify-content:space-between;min-height:var(--nav-h-sm);padding:12px 24px;border-bottom:1px solid var(--line)}
+.drawer-header img{height:38px}
+.drawer-close{border:none;background:none;font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--royal);display:inline-flex;align-items:center;gap:8px;cursor:pointer;padding:6px 2px}
+.drawer-links{flex:1;min-height:0;display:flex;flex-direction:column;padding:0 24px;overflow:hidden}
+.drawer-links a{flex:1;display:flex;align-items:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.4rem;letter-spacing:-.02em;color:var(--ink);border-bottom:1px solid var(--line);opacity:0;transform:translateY(8px);transition:opacity .4s ease,transform .4s ease,color .18s}
+
+.nav-drawer.open .drawer-links a{opacity:1;transform:translateY(0)}
+.nav-drawer.open .drawer-links a:nth-child(1){transition-delay:.06s}
+.nav-drawer.open .drawer-links a:nth-child(2){transition-delay:.1s}
+.nav-drawer.open .drawer-links a:nth-child(3){transition-delay:.14s}
+.nav-drawer.open .drawer-links a:nth-child(4){transition-delay:.18s}
+.nav-drawer.open .drawer-links a:nth-child(5){transition-delay:.22s}
+.nav-drawer.open .drawer-links a:nth-child(6){transition-delay:.26s}
+.nav-drawer.open .drawer-links a:nth-child(7){transition-delay:.3s}
+.drawer-links a:hover,.drawer-links a:active{color:var(--royal)}
+.drawer-footer{padding:16px 24px max(18px,env(safe-area-inset-bottom));border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.drawer-phone{display:flex;align-items:center;justify-content:center;gap:11px;background:var(--royal);color:#fff;font-weight:700;padding:14px;border-radius:8px;font-size:1.02rem}
+.drawer-phone i{color:#fff}
+@media(max-height:600px){.drawer-header{min-height:auto;padding:10px 24px}.drawer-header img{height:32px}.drawer-links a{font-size:1.12rem}.drawer-phone{padding:12px;font-size:.96rem}}
+body.drawer-open{overflow:hidden}
+body.drawer-open .mobile-actions{visibility:hidden}
+
+/* HERO */
+.hero{background:linear-gradient(160deg,var(--navy),var(--navy-2));color:var(--bone);padding:calc(var(--nav-h) + 60px) 0 84px;position:relative;overflow:hidden}
+.hero-grid{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1.04fr .96fr;column-gap:56px;row-gap:0;align-items:center;align-content:center}
+.hero-top{grid-column:1;grid-row:1;align-self:end}
+.hero-bottom{grid-column:1;grid-row:2;align-self:start}
+.hero-media{grid-column:2;grid-row:1 / span 2;align-self:center}
+.hero h1{font-size:clamp(2.3rem,4.7vw,3.7rem);color:#fff;font-weight:600;margin-bottom:20px;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--sky)}
+.hero-lede{font-size:1.16rem;color:var(--bone-mute);max-width:36ch;margin-bottom:30px;line-height:1.55}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:13px}
+.hero-media{position:relative}
+.hero-photo{position:relative;aspect-ratio:4/5;border-radius:16px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.42);border:1px solid rgba(255,255,255,.1)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.hero-cap{position:absolute;left:0;bottom:0;right:0;display:flex;align-items:center;gap:11px;background:linear-gradient(0deg,rgba(7,12,31,.92),rgba(7,12,31,0));padding:38px 18px 16px}
+.hero-cap i{color:var(--sky);font-size:1.05rem}
+.hero-cap b{color:#fff;font-size:.9rem;font-weight:600;display:block;line-height:1.2}
+.hero-cap span{color:var(--bone-mute);font-size:.78rem}
+@media(max-width:980px){
+  .hero{padding:calc(var(--nav-h-sm) + 44px) 0 48px}
+  .hero-grid{display:flex;flex-direction:column;gap:18px;padding:0 24px}
+  .hero-top{order:1}
+  .hero-media{order:2}
+  .hero-bottom{order:3}
+  .hero h1{font-size:clamp(2.05rem,7.4vw,2.55rem);margin-bottom:0}
+  .hero-lede{max-width:none;margin-bottom:20px;font-size:1.08rem}
+  .hero-photo{aspect-ratio:1/1;max-height:none}
+  .hero-photo img{object-position:center 18%}
+  .hero-ctas{flex-direction:column;gap:11px;margin-bottom:22px}
+  .hero-ctas .btn{width:100%}
+}
+
+/* TRUST STRIP */
+.trust{background:#fff;border-bottom:1px solid var(--line)}
+.trust-inner{max-width:1100px;margin:0 auto;padding:17px 32px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 26px}
+.trust-item{display:inline-flex;align-items:center;gap:10px;font-size:.96rem;font-weight:600;color:var(--ink)}
+.trust-item i{color:var(--sky);font-size:1.04rem}
+.trust-dot{width:4px;height:4px;border-radius:50%;background:var(--line);flex:none}
+@media(max-width:680px){.trust-inner{padding:15px 24px;gap:9px 18px}.trust-item{font-size:.88rem}.trust-dot{display:none}}
+
+/* WHY */
+.why-grid{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:center}
+.why-text h2{font-size:clamp(1.85rem,3.6vw,2.7rem);margin-bottom:16px}
+.why-lead{font-size:1.18rem;color:var(--ink);font-weight:500;margin-bottom:14px;line-height:1.5}
+.why-text>p{font-size:1.02rem;color:var(--ink-soft);margin-bottom:18px;line-height:1.68}
+.why-points{list-style:none;display:grid;gap:13px;margin:22px 0 28px}
+.why-points li{display:flex;gap:13px;align-items:flex-start;font-size:1rem;color:var(--ink)}
+.why-points i{color:var(--sky);font-size:1.05rem;margin-top:4px;flex:none}
+.why-media{position:relative}
+.why-photo{position:relative;aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:var(--navy);box-shadow:var(--sh-md)}
+.why-photo img{width:100%;height:100%;object-fit:cover}
+.why-cap{position:absolute;inset:auto 0 0 0;padding:48px 22px 20px;background:linear-gradient(0deg,rgba(7,12,31,.92),rgba(7,12,31,0));display:flex;align-items:flex-end;gap:13px}
+.why-cap .yr{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:2.6rem;color:var(--sky);line-height:.8}
+.why-cap .yt{font-size:.84rem;color:#fff;line-height:1.3;font-weight:500}
+@media(max-width:900px){.why-grid{grid-template-columns:1fr;gap:28px;padding:0 24px}.why-photo{aspect-ratio:1/1;max-height:none}}
+
+/* SERVICES */
+.svc-grid{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1fr .82fr;gap:50px;align-items:center}
+.svc-list{display:grid;grid-template-columns:1fr 1fr;gap:0 44px}
+.svc-item{display:flex;gap:14px;align-items:center;padding:15px 2px;border-bottom:1px solid var(--line);font-weight:600;font-size:1.04rem;color:var(--ink)}
+.svc-item i{color:var(--sky);font-size:1.12rem;width:24px;text-align:center;flex:none}
+.svc-item.free{color:var(--royal);grid-column:1/-1;justify-content:center;text-align:center;border-bottom:none;border-top:1px solid var(--line);margin-top:6px;padding-top:16px}
+.svc-item.free i{color:var(--royal)}
+.svc-photo{position:relative;aspect-ratio:3/4;border-radius:16px;overflow:hidden;box-shadow:var(--sh-md)}
+.svc-photo img{width:100%;height:100%;object-fit:cover}
+.svc-photo .scap{position:absolute;inset:auto 0 0 0;padding:42px 20px 18px;background:linear-gradient(0deg,rgba(7,12,31,.9),rgba(7,12,31,0));color:#fff;font-size:.9rem;font-weight:500}
+.svc-photo .scap i{color:var(--sky);margin-right:8px}
+@media(max-width:900px){.svc-grid{grid-template-columns:1fr;gap:28px;padding:0 24px}.svc-photo{order:-1;aspect-ratio:1/1;max-height:none}}
+@media(max-width:560px){.svc-list{gap:0 16px}.svc-item{font-size:.9rem;padding:12px 0;gap:10px}.svc-item i{font-size:1rem;width:20px}}
+
+/* HOW IT WORKS (timeline) */
+.timeline{max-width:1120px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:34px}
+.tstep{border-top:2px solid rgba(255,255,255,.22);padding-top:18px}
+.tnum{display:block;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.5rem;color:var(--sky);margin-bottom:12px}
+.tstep h3{font-size:1.2rem;color:#fff;margin-bottom:9px}
+.tstep p{font-size:.95rem;color:var(--bone-mute);line-height:1.58}
+@media(max-width:760px){
+  .timeline{grid-template-columns:1fr 1fr;gap:26px 20px;padding:0 24px}
+  .tstep{padding-top:14px}
+  .tnum{font-size:1.25rem;margin-bottom:8px}
+  .tstep h3{font-size:1.02rem;margin-bottom:6px}
+  .tstep p{font-size:.84rem;line-height:1.5}
+}
+
+/* PRICING */
+.price-wrap{max-width:940px;margin:0 auto;padding:0 32px}
+.price-cards{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.pcard{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--sh-sm)}
+.pcard.feat{border-color:var(--royal)}
+.pcard-head{padding:26px 28px 20px;border-bottom:1px solid var(--line);position:relative}
+.pcard.feat .pcard-head{background:transparent}
+.pcard-head .tag{position:absolute;top:22px;right:24px;font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:var(--royal);padding:5px 11px;border-radius:5px}
+.pcard-head h3{font-size:1.6rem;margin-bottom:5px}
+.pcard-head p{font-size:.94rem;color:var(--ink-soft)}
+.pcard-body{padding:22px 28px 26px;flex:1;display:flex;flex-direction:column}
+.pincl{list-style:none;display:grid;gap:9px;margin-bottom:20px}
+.pincl li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem;color:var(--ink)}
+.pincl i{color:var(--sky);font-size:.82rem;margin-top:5px;flex:none}
+.pquote{border-top:1px solid var(--line);padding-top:15px;margin-bottom:18px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.pquote span{font-size:.92rem;color:var(--ink-soft)}
+.pquote b{font-size:.95rem;color:var(--royal);font-weight:700;white-space:nowrap}
+.pcard-foot{margin-top:auto}
+.price-note{text-align:center;margin-top:26px;font-size:.98rem;color:var(--ink-soft)}
+.price-note b{color:var(--royal)}
+@media(max-width:720px){
+  .price-wrap{padding:0 24px}
+  .price-cards{grid-template-columns:1fr;gap:14px}
+  .pcard-head{padding:20px 22px 15px}
+  .pcard-head h3{font-size:1.38rem}
+  .pcard-body{padding:18px 22px 22px}
+  .pincl li{font-size:.9rem}
+  .price-note{padding:0}
+}
+
+/* SERVICE AREA */
+.area-grid{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1fr .8fr;gap:50px;align-items:center}
+.area-text h2{font-size:clamp(1.85rem,3.6vw,2.7rem);color:#fff;margin-bottom:14px}
+.area-text>p{color:var(--bone-mute);font-size:1.04rem;line-height:1.62;margin-bottom:22px}
+.city-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px 16px}
+.city-grid span{font-size:.93rem;color:var(--bone);display:flex;align-items:center;gap:9px}
+.city-grid i{color:var(--sky);font-size:.62rem}
+.area-note{margin-top:22px;font-size:.9rem;color:var(--bone-mute);border-top:1px solid var(--line-d);padding-top:16px}
+.area-note b{color:var(--sky)}
+.area-card{padding:6px 0 6px 26px;border-left:2px solid var(--sky);text-align:left}
+.area-card .big{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:3.6rem;color:var(--sky);line-height:1}
+.area-card .lbl{font-size:1.02rem;color:#fff;margin-top:8px;font-weight:600}
+.area-card p{font-size:.92rem;color:var(--bone-mute);margin-top:14px;line-height:1.5}
+.area-card .btn{margin-top:22px}
+@media(max-width:900px){.area-grid{grid-template-columns:1fr;gap:32px}.city-grid{grid-template-columns:1fr 1fr}}
+
+/* REVIEWS */
+.rev-head{max-width:1200px;margin:0 auto 30px;padding:0 32px;display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.rev-head h2{font-size:clamp(1.8rem,3.5vw,2.6rem)}
+.rev-head .yelp{display:flex;align-items:center;gap:12px}
+.rev-head .yelp .num{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:2.2rem;color:var(--ink);line-height:1}
+.rev-head .yelp .st i{color:#F5A623;font-size:.92rem}
+.rev-head .yelp .st div{font-size:.82rem;color:var(--ink-soft);margin-top:2px;font-weight:600}
+.rev-track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:32px;padding:6px 32px 16px;max-width:1200px;margin:0 auto;scrollbar-width:none}
+.rev-track::-webkit-scrollbar{display:none}
+.rcard{flex:0 0 360px;scroll-snap-align:start;border-left:3px solid var(--sky);padding:4px 28px 4px 22px;display:flex;flex-direction:column}
+.rcard .qm{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:2.4rem;color:var(--sky);line-height:.4;margin-bottom:14px}
+.rcard .tag{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--sky);margin-bottom:9px}
+.rcard p{font-size:1rem;color:var(--ink);line-height:1.6;flex:1;font-style:italic}
+.rcard .by{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:16px;margin-top:16px}
+.rcard .av{width:42px;height:42px;border-radius:50%;background:var(--sky-soft);color:var(--sky);display:grid;place-items:center;flex:none}
+.rcard .by b{font-size:.92rem;display:block}
+.rcard .by small{font-size:.8rem;color:var(--ink-soft)}
+.rev-cta{text-align:center;margin-top:30px}
+@media(max-width:600px){.rcard{flex:0 0 85%;max-width:340px}}
+
+/* FAQ */
+.faq-wrap{max-width:1080px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:.42fr .58fr;gap:50px;align-items:start}
+.faq-intro h2{font-size:clamp(1.8rem,3.4vw,2.6rem);margin-bottom:14px}
+.faq-intro p{color:var(--ink-soft);font-size:1.02rem;line-height:1.64;margin-bottom:22px}
+.accordion{display:flex;flex-direction:column}
+.acc-item{border-bottom:1px solid var(--line)}
+.acc-item.open .acc-head{color:var(--royal)}
+.acc-head{width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:20px 2px;display:flex;justify-content:space-between;align-items:center;gap:18px;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.08rem;color:var(--ink)}
+.acc-head i{color:var(--sky);transition:transform .3s;flex:none}
+.acc-item.open .acc-head i{transform:rotate(45deg)}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .34s ease}
+.acc-body-inner{padding:0 2px 22px;color:var(--ink-soft);font-size:.97rem;line-height:1.66}
+@media(max-width:880px){.faq-wrap{grid-template-columns:1fr;gap:28px}}
+
+/* CONTACT */
+.contact-grid{max-width:620px;margin:0 auto;padding:0 24px}
+.form-card{padding:0}
+.form-card h3{font-size:1.55rem;margin-bottom:5px}
+.form-card .fsub{color:var(--ink-soft);font-size:.95rem;margin-bottom:20px}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.field{margin-bottom:14px}
+.field label{display:block;font-weight:600;font-size:.84rem;color:var(--ink);margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:13px 15px;border:1.6px solid var(--line);border-radius:8px;font-family:'Plus Jakarta Sans',sans-serif;font-size:.98rem;color:var(--ink);background:#fff;transition:border-color .18s,box-shadow .18s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--royal);box-shadow:0 0 0 3px rgba(27,34,196,.12)}
+.field textarea{resize:vertical;min-height:96px}
+.field.err input,.field.err select,.field.err textarea{border-color:#D6453B;box-shadow:0 0 0 3px rgba(214,69,59,.1)}
+.field .msg{display:none;color:#C23B32;font-size:.8rem;margin-top:5px}
+.field.err .msg{display:block}
+.form-card .btn{width:100%;margin-top:4px;padding:15px}
+.form-status{display:none;margin-top:14px;padding:13px 15px;border-radius:8px;font-size:.92rem;font-weight:500}
+.form-status.show{display:block}
+.form-status.success{background:#E9F8EF;color:#1B7E45;border:1px solid #BCE6CC}
+.form-status.error{background:#FEF1F0;color:#C23B32;border:1px solid #F6D2CE}
+.info-card{background:var(--navy);color:var(--bone);border-radius:16px;padding:30px;height:100%}
+.info-card h3{color:#fff;font-size:1.35rem;margin-bottom:20px}
+.info-row{display:flex;gap:14px;align-items:flex-start;margin-bottom:17px}
+.info-row .ii{width:44px;height:44px;border-radius:9px;background:var(--navy-2);border:1px solid var(--line-d);display:grid;place-items:center;color:var(--sky);flex:none}
+.info-row .it{font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--bone-mute);margin-bottom:2px;font-weight:600}
+.info-row a,.info-row span{color:#fff;font-size:.99rem;line-height:1.4}
+.info-row a:hover{color:var(--sky)}
+.hours-block{margin-top:20px;border-top:1px solid var(--line-d);padding-top:16px}
+.hours-block .it{font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--bone-mute);margin-bottom:10px;font-weight:600}
+.hours-row{display:flex;justify-content:space-between;font-size:.92rem;color:#fff;padding:4px 0}
+@media(max-width:880px){.contact-grid{grid-template-columns:1fr;gap:22px}}
+@media(max-width:440px){.frow{grid-template-columns:1fr}}
+
+/* FOOTER */
+footer{background:var(--navy-3);color:var(--bone-mute);padding:60px 0 26px}
+.foot-grid{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1.6fr 1fr 1.2fr;gap:40px;padding-bottom:36px;border-bottom:1px solid rgba(255,255,255,.1)}
+.foot-logo{background:#fff;border-radius:10px;padding:14px 16px;display:inline-block;margin-bottom:16px}
+.foot-logo img{height:40px;display:block}
+.foot-brand p{font-size:.93rem;color:var(--bone-mute);max-width:34ch;line-height:1.6}
+.foot-soc{display:flex;gap:10px;margin-top:18px}
+.foot-soc a{width:42px;height:42px;border-radius:9px;background:rgba(255,255,255,.07);display:grid;place-items:center;color:#fff;transition:.15s}
+.foot-soc a:hover{background:var(--royal)}
+.foot-col h4{color:#fff;font-size:1.04rem;margin-bottom:15px}
+.foot-col ul{list-style:none;display:grid;gap:10px}
+.foot-col a{font-size:.93rem;color:var(--bone-mute);transition:.15s}
+.foot-col a:hover{color:var(--sky)}
+.foot-contact{font-style:normal}
+.foot-contact p{font-size:.93rem;color:var(--bone-mute);line-height:1.7;display:flex;gap:11px;align-items:flex-start}
+.foot-contact i{color:var(--sky);margin-top:5px;width:16px;text-align:center;flex:none}
+.foot-bottom{max-width:1200px;margin:24px auto 0;padding:0 32px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center;font-size:.84rem;color:var(--bone-mute)}
+.foot-bottom-links{display:flex;gap:18px}
+.built-by{display:inline-flex;align-items:center;gap:8px;opacity:.78;transition:opacity .15s;color:var(--bone-mute);font-size:.82rem}
+.built-by:hover{opacity:1}
+.built-by img{height:19px;width:auto}
+@media(max-width:820px){
+  footer{padding:46px 0 22px}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px 22px;padding:0 24px 26px}
+  .foot-brand{grid-column:1/-1}
+  .foot-logo img{height:34px}
+  .foot-brand p{font-size:.9rem;max-width:42ch}
+  .foot-soc{margin-top:14px}
+  .foot-col h4{font-size:.98rem;margin-bottom:12px}
+  .foot-bottom{flex-direction:column;align-items:flex-start;gap:12px;margin-top:18px;padding:16px 24px 0}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo" aria-label="Professional Pet Grooming home"><img src="assets/logo.png" alt="Professional Pet Grooming"></a>
+    <ul class="nav-links">
+      <li><a href="#why">Why Mobile</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#area">Service Area</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:+17863448864" class="nav-phone"><i class="fa-solid fa-phone-volume"></i> (786) 344-8864</a>
+      <a href="#contact" class="btn btn-sm">Book Now</a>
+    </div>
+    <div class="mobile-actions">
+      <a href="tel:+17863448864" class="mobile-call" aria-label="Call Professional Pet Grooming"><i class="fa-solid fa-phone-volume"></i></a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" id="navOverlay"></div>
+<aside class="nav-drawer" id="navDrawer" aria-hidden="true" aria-label="Site menu">
+  <div class="drawer-header">
+    <img src="assets/logo.png" alt="Professional Pet Grooming">
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu">Close <i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <nav class="drawer-links">
+    <a href="#why">Why Mobile</a>
+    <a href="#services">Services</a>
+    <a href="#how">How It Works</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#area">Service Area</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="drawer-footer">
+    <a href="tel:+17863448864" class="drawer-phone"><i class="fa-solid fa-phone-volume"></i> (786) 344-8864</a>
+    <a href="#contact" class="btn btn-ghost" style="width:100%">Book Your Appointment</a>
+  </div>
+</aside>
+<span id="top"></span>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-grid">
+    <div class="hero-top">
+      <h1>Mobile dog &amp; cat grooming, done at your <em>Miami doorstep</em></h1>
+    </div>
+    <div class="hero-media">
+      <div class="hero-photo">
+        <img src="assets/hero-doorstep.jpg" alt="A freshly groomed goldendoodle sitting on the front doorstep of a Miami home after a mobile grooming visit" fetchpriority="high">
+      </div>
+    </div>
+    <div class="hero-bottom">
+      <p class="hero-lede">Full salon-quality grooming for one pet at a time, in your own driveway. No cages, no drop-off, no lost afternoon.</p>
+      <div class="hero-ctas">
+        <a href="tel:+17863448864" class="btn btn-lg"><i class="fa-solid fa-phone-volume"></i> Call or Text to Book</a>
+        <a href="#services" class="btn btn-ghost btn-lg" style="color:#fff;border-color:rgba(255,255,255,.35)"><i class="fa-solid fa-arrow-down"></i> Services</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- TRUST STRIP -->
+<div class="trust">
+  <div class="trust-inner">
+    <span class="trust-item">Rated 5.0 on Yelp</span>
+    <span class="trust-dot"></span>
+    <span class="trust-item">At your door, across Miami-Dade</span>
+    <span class="trust-dot"></span>
+    <span class="trust-item">Free flea &amp; tick cure, every groom</span>
+  </div>
+</div>
+
+<!-- WHY -->
+<section id="why">
+  <div class="why-grid">
+    <div class="why-text">
+      <h2>For the pet that hates the salon, the van changes everything</h2>
+      <p class="why-lead">Most dogs and cats do not misbehave because they are difficult. They react to the car ride, the waiting room, the crate, and a room full of barking dogs.</p>
+      <p>Professional Pet Grooming takes all of that away. A self-contained grooming van pulls up to your home, and your pet is groomed one on one with you close by. It is calmer for nervous, senior, and small pets, and far simpler for you.</p>
+      <ul class="why-points">
+        <li><i class="fa-solid fa-house-chimney-window"></i> Your pet stays home, in a place it already knows and trusts.</li>
+        <li><i class="fa-solid fa-user-shield"></i> One pet at a time. No kennel of waiting animals, ever.</li>
+        <li><i class="fa-solid fa-stopwatch"></i> No drop-off or pickup. We arrive, we groom, you keep your day.</li>
+        <li><i class="fa-solid fa-eye"></i> You can watch the whole visit. Nothing is hidden.</li>
+      </ul>
+      <a href="#contact" class="btn btn-ghost btn-sm">Book a Visit</a>
+    </div>
+    <div class="why-media">
+      <div class="why-photo">
+        <img src="assets/groom-care.jpg" alt="A groomer gently holding a freshly groomed toy poodle with a rounded teddy-bear cut inside the grooming van">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="mist">
+  <div class="sec-head center">
+    <h2>Full salon care, parked outside your home</h2>
+    <p>One visit covers the whole pet, head to paw. Every groom includes all of this.</p>
+  </div>
+  <div class="svc-grid">
+    <div class="svc-list">
+      <div class="svc-item">Stylist Haircut</div>
+      <div class="svc-item">Eye, Sanitary &amp; Paw Pads</div>
+      <div class="svc-item">Nail Clipping &amp; Filing</div>
+      <div class="svc-item">Ear Cleaning &amp; Plucking</div>
+      <div class="svc-item">Gentle Bathing</div>
+      <div class="svc-item">Gland Expression</div>
+      <div class="svc-item">Fluff Out Drying</div>
+      <div class="svc-item">Teeth Brushing</div>
+      <div class="svc-item">Bandana or Bow</div>
+      <div class="svc-item">Natural Cologne</div>
+      <div class="svc-item free">Free Flea &amp; Tick Cure</div>
+    </div>
+    <div class="svc-photo">
+      <img src="assets/groom-tie.jpg" alt="A freshly groomed brown goldendoodle wearing a leopard print necktie on the grooming table inside the mobile van">
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="dark">
+  <div class="sec-head center">
+    <h2>Booked by text. Done in your driveway.</h2>
+    <p>Four simple steps from your message to a clean, happy pet.</p>
+  </div>
+  <div class="timeline">
+    <div class="tstep"><span class="tnum">01</span><h3>Call or Text</h3><p>Text your pet, size, and neighborhood. We send back an arrival window.</p></div>
+    <div class="tstep"><span class="tnum">02</span><h3>We Pull Up</h3><p>The fully equipped van pulls up. All we need is a parking spot.</p></div>
+    <div class="tstep"><span class="tnum">03</span><h3>One-on-One Groom</h3><p>Groomed start to finish at their own pace, with you close by.</p></div>
+    <div class="tstep"><span class="tnum">04</span><h3>Back to You Clean</h3><p>Fresh and styled, then right back inside. No crates, no all-day wait.</p></div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="sec-head center">
+    <h2>Two grooms, priced by your pet's size</h2>
+    <p>Every pet is different, so every price is custom. Call or text and we will give you an exact quote in minutes, no obligation.</p>
+  </div>
+  <div class="price-wrap">
+    <div class="price-cards">
+      <div class="pcard feat">
+        <div class="pcard-head"><h3>Full Groom</h3><p>The complete head-to-paw service</p></div>
+        <div class="pcard-body">
+          <ul class="pincl">
+            <li><i class="fa-solid fa-check"></i> Stylist haircut, bath, and fluff-out dry</li>
+            <li><i class="fa-solid fa-check"></i> Nails, ears, eyes, sanitary and paw pads</li>
+            <li><i class="fa-solid fa-check"></i> Teeth brushing, cologne, bandana or bow</li>
+            <li><i class="fa-solid fa-check"></i> Free flea and tick cure included</li>
+          </ul>
+          <div class="pquote"><span>Price varies by pet size</span><b>Custom quote</b></div>
+          <div class="pcard-foot"><a href="sms:+17863448864" class="btn" style="width:100%"><i class="fa-solid fa-comment-sms"></i> Text for my price</a></div>
+        </div>
+      </div>
+      <div class="pcard">
+        <div class="pcard-head"><h3>Basic Bath</h3><p>Clean-up between full grooms</p></div>
+        <div class="pcard-body">
+          <ul class="pincl">
+            <li><i class="fa-solid fa-check"></i> Warm bath and full fluff-out dry</li>
+            <li><i class="fa-solid fa-check"></i> Nails clipped, ears cleaned</li>
+            <li><i class="fa-solid fa-check"></i> Cologne and a bandana or bow</li>
+            <li><i class="fa-solid fa-check"></i> Great for short coats and upkeep</li>
+          </ul>
+          <div class="pquote"><span>Price varies by pet size</span><b>Custom quote</b></div>
+          <div class="pcard-foot"><a href="tel:+17863448864" class="btn btn-ghost" style="width:100%"><i class="fa-solid fa-phone-volume"></i> Call for my price</a></div>
+        </div>
+      </div>
+    </div>
+    <p class="price-note">Ask about the current referral offer: <b>$10 off when you refer a friend.</b></p>
+  </div>
+</section>
+
+<!-- SERVICE AREA -->
+<section id="area" class="dark">
+  <div class="area-grid">
+    <div class="area-text">
+      <h2>Your neighborhood's grooming van</h2>
+      <p>Professional Pet Grooming is based in the Hammocks and Kendall West and covers homes across Miami-Dade. If the van can reach your street, we will come to you.</p>
+      <div class="city-grid">
+        <span>The Hammocks</span>
+        <span>Kendall</span>
+        <span>Kendall West</span>
+        <span>Tamiami</span>
+        <span>Westchester</span>
+        <span>Doral</span>
+        <span>Pinecrest</span>
+        <span>Cutler Bay</span>
+        <span>Kendall Lakes</span>
+      </div>
+      <div class="area-note">Not sure if you are in range? <b>Text your ZIP to (786) 344-8864</b> and we will confirm.</div>
+    </div>
+    <div class="area-card">
+      <div class="big">100%</div>
+      <div class="lbl">Mobile, door to door</div>
+      <p>No storefront to drive to. The fully equipped van brings the salon to your home.</p>
+      <a href="sms:+17863448864" class="btn btn-sky"><i class="fa-solid fa-comment-sms"></i> Check My Area</a>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="mist">
+  <div class="rev-head">
+    <div>
+      <h2>Loved by Miami pet families</h2>
+    </div>
+    <div class="yelp">
+      <span class="num">5.0</span>
+      <div class="st">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div>Rated 5.0 on Yelp</div>
+      </div>
+    </div>
+  </div>
+  <div class="rev-track" id="revTrack">
+    <article class="rcard">
+      <div class="qm">&ldquo;</div>
+      <p class="tag">Featured review</p>
+      <p>The best review to feature here is one about a nervous, senior, or hard-to-handle pet that finally stayed calm because the groom happened at home. It is the message that converts the most visitors.</p>
+      <div class="by"><div class="av"><i class="fa-solid fa-paw"></i></div><div><b>Add a real client review</b><small>Pull the best from Yelp or Instagram</small></div></div>
+    </article>
+    <article class="rcard">
+      <div class="qm">&ldquo;</div>
+      <p class="tag">Verified review</p>
+      <p>A short quote about how convenient the at-home visit was, and not losing the afternoon to a drop-off.</p>
+      <div class="by"><div class="av"><i class="fa-solid fa-paw"></i></div><div><b>Client name</b><small>Neighborhood, Miami</small></div></div>
+    </article>
+    <article class="rcard">
+      <div class="qm">&ldquo;</div>
+      <p class="tag">Verified review</p>
+      <p>A quote about how great the haircut looked, or how good their pet smelled afterward.</p>
+      <div class="by"><div class="av"><i class="fa-solid fa-paw"></i></div><div><b>Client name</b><small>Neighborhood, Miami</small></div></div>
+    </article>
+    <article class="rcard">
+      <div class="qm">&ldquo;</div>
+      <p class="tag">Verified review</p>
+      <p>A quote about trust and gentleness, ideal from a repeat customer who books every few weeks.</p>
+      <div class="by"><div class="av"><i class="fa-solid fa-paw"></i></div><div><b>Client name</b><small>Neighborhood, Miami</small></div></div>
+    </article>
+  </div>
+  <div class="rev-cta"><a href="https://www.yelp.com/biz/professional-pet-grooming-miami-5" class="btn btn-ghost" target="_blank" rel="noopener"><i class="fa-brands fa-yelp"></i> Read reviews on Yelp</a></div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-wrap">
+    <div class="faq-intro">
+      <h2>Questions pet parents ask first</h2>
+      <p>Straight answers about anxious pets, safety, and how the van works. Still wondering about your pet? Send a quick text and we will tell you honestly.</p>
+      <a href="sms:+17863448864" class="btn"><i class="fa-solid fa-comment-sms"></i> Text (786) 344-8864</a>
+    </div>
+    <div class="accordion" id="accordion">
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">My dog gets aggressive or vocal at the salon. Can you still groom him? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">Often, yes. Many dogs that get muzzled or wrestled at a salon are reacting to the building, not the grooming. With no other animals around and their owner nearby, most settle down. Tell us what sets your dog off when you book so we can plan for it.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">Is mobile grooming good for a senior or arthritic pet? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">It is one of the best options for them. No car ride, no stairs, no long wait in a crate. We work at a gentle pace for older pets and keep the session as short and comfortable as possible.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">What if my pet is nervous around clippers and dryers? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">We go at your pet's pace and never force a step. Many nervous pets relax once they realize they are in their own driveway. Let us know ahead of time and we take extra care with the sounds that worry them.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">Do you groom cats too? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">Yes. Cats are groomed gently and one on one, which is far less stressful than a clinic full of barking dogs. Bath, nails, ears, and a tidy or full groom are all available.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">How long does it take, and can you do more than one pet? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">A single groom is usually about an hour, depending on size and coat. We groom multiple pets in the same visit, one at a time, so a multi-pet home can be handled in one stop.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">How do I make sure I get the haircut I asked for? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">We talk it through before we start. Because we are right outside your door, you can step out anytime to check in. If you have a photo of a cut you love, send it over when you book.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">What does it cost? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">Price depends on your pet's size, coat, and whether you want a full groom or a basic bath. Call or text with those details and you will get an exact quote in minutes, with no obligation.</div></div></div>
+      <div class="acc-item"><button class="acc-head" aria-expanded="false">Which areas do you cover, and how do I book? <i class="fa-solid fa-plus"></i></button><div class="acc-body"><div class="acc-body-inner">We serve homes across Miami-Dade from our base in the Hammocks and Kendall West. The fastest way to book is to call or text (786) 344-8864 with your pet, the size, and your neighborhood.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="mist">
+  <div class="sec-head center">
+    <h2>Bring the spa to your driveway</h2>
+    <p>Call or text for the fastest answer, or send the form and we will reply with a time and a quote.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="form-card">
+      <h3>Request your appointment</h3>
+      <p class="fsub">Tell us about your pet and we will text back with a price and the next opening.</p>
+      <form id="bookForm" novalidate>
+        <div class="frow">
+          <div class="field" id="f-name"><label for="cf-name">Your name</label><input type="text" id="cf-name" name="name" placeholder="First and last"><div class="msg">Please add your name.</div></div>
+          <div class="field" id="f-phone"><label for="cf-phone">Phone</label><input type="tel" id="cf-phone" name="phone" placeholder="(786) 000-0000"><div class="msg">Add a number we can text.</div></div>
+        </div>
+        <div class="field" id="f-pet"><label for="cf-pet">Pet and size</label>
+          <select id="cf-pet" name="pet"><option value="">Choose one</option><option>Small dog or cat (up to 20 lb)</option><option>Medium dog (20 to 50 lb)</option><option>Large dog (50 lb +)</option><option>More than one pet</option></select>
+          <div class="msg">Let us know who we are grooming.</div>
+        </div>
+        <div class="field" id="f-area"><label for="cf-area">Neighborhood or ZIP</label><input type="text" id="cf-area" name="area" placeholder="Kendall, Hammocks, 33177..."><div class="msg">Tell us where the van is heading.</div></div>
+        <div class="field"><label for="cf-msg">Anything we should know? <span style="color:var(--ink-soft);font-weight:500">(optional)</span></label><textarea id="cf-msg" name="message" placeholder="Breed, last groom, anything that makes your pet nervous..."></textarea></div>
+        <button type="submit" class="btn"><i class="fa-solid fa-paw"></i> Request My Appointment</button>
+        <div class="form-status" id="formStatus"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <span class="foot-logo"><img src="assets/logo.png" alt="Professional Pet Grooming"></span>
+      <p>Salon-quality dog and cat grooming that comes to your driveway across Miami-Dade. Calm, one-on-one, and stress-free for the pets that hate the salon.</p>
+      <div class="foot-soc">
+        <a href="https://www.instagram.com/professionalpet.grooming/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/100063465795072/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/17863448864" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#why">Why Mobile</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#area">Service Area</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="foot-col foot-contact">
+      <h4>Get in touch</h4>
+      <address>
+        <p><i class="fa-solid fa-phone-volume"></i> <a href="tel:+17863448864">(786) 344-8864</a></p>
+        <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/17863448864" target="_blank" rel="noopener">WhatsApp us</a></p>
+        <p><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/professionalpet.grooming/" target="_blank" rel="noopener">@professionalpet.grooming</a></p>
+        <p><i class="fa-solid fa-location-dot"></i> Serving all of Miami-Dade, FL</p>
+        <p><i class="fa-solid fa-clock"></i> Mon to Sat, 8am to 6pm</p>
+      </address>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; <span id="yr"></span> Professional Pet Grooming. Mobile dog &amp; cat grooming in Miami, FL.</span>
+    <div class="foot-bottom-links"><a href="#top">Back to top</a><a href="tel:+17863448864">Book now</a></div>
+    <a class="built-by" href="https://crossdesigned.com" target="_blank" rel="noopener" aria-label="Website built by Cross Designs">Built by <img src="assets/cross-designs.png" alt="Cross Designs"></a>
+  </div>
+</footer>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"PetGroomer","name":"Professional Pet Grooming",
+  "description":"Mobile dog and cat grooming serving Miami-Dade. Salon-quality grooming at your home, one pet at a time, with free flea and tick cure.",
+  "url":"https://professionalpetgrooming.example/","telephone":"+1-786-344-8864",
+  "image":"https://professionalpetgrooming.example/assets/og-share.jpg","priceRange":"$$","currenciesAccepted":"USD",
+  "areaServed":[{"@type":"AdministrativeArea","name":"Miami-Dade County, FL"},{"@type":"City","name":"Miami"},{"@type":"City","name":"Kendall"}],
+  "knowsAbout":["mobile dog grooming","cat grooming","anxious pet grooming","senior pet grooming","flea and tick treatment"],
+  "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}],
+  "sameAs":["https://www.instagram.com/professionalpet.grooming/","https://www.facebook.com/100063465795072/","https://www.yelp.com/biz/professional-pet-grooming-miami-5"],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"2"},
+  "hasOfferCatalog":{"@type":"OfferCatalog","name":"Mobile Grooming Services","itemListElement":[
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Full Groom (haircut, bath, nails, ears, teeth, cologne, finishing)"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Basic Bath (bath, fluff-out dry, nails, ears, cologne)"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Nail Clipping and Filing"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Teeth Brushing"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Free Flea and Tick Cure"}}
+  ]}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"My dog gets aggressive or vocal at the salon. Can you still groom him?","acceptedAnswer":{"@type":"Answer","text":"Often, yes. Many dogs that get muzzled or wrestled at a salon are reacting to the building, not the grooming. With no other animals around and their owner nearby, most settle down."}},
+    {"@type":"Question","name":"Is mobile grooming good for a senior or arthritic pet?","acceptedAnswer":{"@type":"Answer","text":"It is one of the best options for them. No car ride, no stairs, no long wait in a crate. We work at a gentle pace and keep the session short and comfortable."}},
+    {"@type":"Question","name":"What if my pet is nervous around clippers and dryers?","acceptedAnswer":{"@type":"Answer","text":"We go at your pet's pace and never force a step. Many nervous pets relax once they realize they are in their own driveway. Let us know ahead of time and we take extra care."}},
+    {"@type":"Question","name":"Do you groom cats too?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cats are groomed gently and one on one, which is far less stressful than a clinic full of barking dogs. Bath, nails, ears, and a tidy or full groom are available."}},
+    {"@type":"Question","name":"How long does it take, and can you do more than one pet?","acceptedAnswer":{"@type":"Answer","text":"A single groom is usually about an hour. We groom multiple pets in the same visit, one at a time, so a multi-pet home can be handled in one stop."}},
+    {"@type":"Question","name":"How do I make sure I get the haircut I asked for?","acceptedAnswer":{"@type":"Answer","text":"We talk it through before we start, and you can step out anytime to check in. If you have a photo of a cut you love, send it over when you book."}},
+    {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"Price depends on your pet's size, coat, and whether you want a full groom or a basic bath. Call or text and you will get an exact quote in minutes."}},
+    {"@type":"Question","name":"Which areas do you cover, and how do I book?","acceptedAnswer":{"@type":"Answer","text":"We serve homes across Miami-Dade from our base in the Hammocks and Kendall West. Call or text (786) 344-8864 with your pet, the size, and your neighborhood."}}
+  ]
+}
+</script>
+
+<script>
+if('scrollRestoration' in history){history.scrollRestoration='auto';}
+(function(){
+  if(window.location.hash){history.replaceState(null,'',window.location.pathname);}
+  var nav=document.getElementById('siteNav');
+  function onScroll(){if(window.scrollY>20)nav.classList.add('scrolled');else nav.classList.remove('scrolled');}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+  var hamburger=document.getElementById('hamburger'),drawer=document.getElementById('navDrawer'),
+      overlay=document.getElementById('navOverlay'),drawerClose=document.getElementById('drawerClose');
+  function openD(){drawer.classList.add('open');overlay.classList.add('open');document.body.classList.add('drawer-open');drawer.setAttribute('aria-hidden','false');hamburger.setAttribute('aria-expanded','true');}
+  function closeD(){drawer.classList.remove('open');overlay.classList.remove('open');document.body.classList.remove('drawer-open');drawer.setAttribute('aria-hidden','true');hamburger.setAttribute('aria-expanded','false');}
+  hamburger.addEventListener('click',openD);drawerClose.addEventListener('click',closeD);overlay.addEventListener('click',closeD);
+  drawer.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeD);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&drawer.classList.contains('open'))closeD();});
+
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id=a.getAttribute('href');if(id.length<2)return;
+      var t=document.querySelector(id);if(!t)return;
+      e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});
+      history.replaceState(null,'',window.location.pathname);
+    });
+  });
+
+  document.querySelectorAll('.acc-head').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var item=btn.parentElement,body=item.querySelector('.acc-body'),isOpen=item.classList.contains('open');
+      document.querySelectorAll('.acc-item').forEach(function(i){i.classList.remove('open');i.querySelector('.acc-head').setAttribute('aria-expanded','false');i.querySelector('.acc-body').style.maxHeight=null;});
+      if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');body.style.maxHeight=body.scrollHeight+'px';}
+    });
+  });
+
+  var form=document.getElementById('bookForm'),status=document.getElementById('formStatus');
+  function setErr(id,on){var el=document.getElementById(id);if(el)el.classList.toggle('err',on);}
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=form.name.value.trim(),phone=form.phone.value.trim(),pet=form.pet.value,area=form.area.value.trim(),ok=true;
+    setErr('f-name',!name);if(!name)ok=false;
+    var phoneOk=phone.replace(/\D/g,'').length>=10;setErr('f-phone',!phoneOk);if(!phoneOk)ok=false;
+    setErr('f-pet',!pet);if(!pet)ok=false;
+    setErr('f-area',!area);if(!area)ok=false;
+    if(!ok){status.className='form-status show error';status.textContent='Just a few details missing. Add your name, phone, pet, and neighborhood.';return;}
+    status.className='form-status show success';
+    status.innerHTML="Thanks "+name+". The fastest way to lock a slot is a quick text to <a href='tel:+17863448864' style='color:var(--royal);font-weight:700'>(786) 344-8864</a>. We will reply with your price and next opening.";
+    form.reset();
+  });
+  form.querySelectorAll('input,select').forEach(function(el){el.addEventListener('input',function(){var f=el.closest('.field');if(f)f.classList.remove('err');});});
+
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
